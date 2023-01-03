@@ -1,0 +1,15 @@
+{
+  "Wallpaper": {
+    "_": { "items": 100 },
+    "id": { "string": {} },
+    "photo": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+    },
+    "category": {
+      "belongsTo": "Category"
+    }
+  },
+  "Category": {
+   "_": { "items": 20 },
+  }
+}
